@@ -1,0 +1,123 @@
+/* :root{
+    scroll-behavior: smooth;
+} */ 
+header{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 100;
+    &::after{
+
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(214, 46, 51 , 0.6);
+        z-index: -1;
+    }
+}
+h1{
+    font-size: 60px;
+}
+.navo{
+    z-index: 99999;
+    overflow-x: hidden;
+    
+    /* transition: all 1s; */
+}
+.theButton{
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    left: 75px;
+}
+.content h1{
+    margin-top: 20%;
+    
+}
+.content{
+    transition: all 0.5s;
+}
+.margino{
+    margin-left: 110px;
+}
+#slider{
+    height: 100vh;
+    h3{
+        cursor: pointer;
+      }
+
+    .container{
+        margin-top: 10%;
+        div{
+            display: none;
+        }
+        .onee{
+            display: block;
+        }
+    
+    }
+ 
+}
+#counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(214, 46, 51 , 0.6);
+        z-index: 1;
+
+    }
+    .item{
+        border: 1px solid wheat;
+        width: 150px;
+        height: 150px;
+        padding: 30px;
+        color:  white;
+       
+    }
+
+}
+.font26{
+    font-size: 26px;
+}
+.contactInfo p {
+    font-size: 16px;
+    line-height: 24px;
+    color:
+rgb(68, 68, 68)
+}
+.icons p{
+    margin-bottom: 40px;
+  
+}
+.textred span{
+    color: red;
+}
+.socialicons i{
+    color: #777;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #777;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color: black;
+        color: whitesmoke;
+
+    }
+}
